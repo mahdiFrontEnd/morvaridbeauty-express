@@ -13,7 +13,7 @@ exports.index = function (req, res) {
 
 exports.contact_us = function (req, res) {
 
-    con.query("SELECT * FROM users limit 1", function (err, result, fields) {
+    con.query("SELECT * FROM users limit 22", function (err, result, fields) {
         return  {a:11};
         if (err) throw err;
         return  result;
