@@ -1,0 +1,28 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap-next": "^1.0.5",
+    "chart.js": "^2.9.4",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-group-router": "^2.1.0",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {}
+}
